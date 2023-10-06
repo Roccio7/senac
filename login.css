@@ -1,0 +1,111 @@
+/*fundo da pagina */
+body {
+    font: 25px arial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  /*navegaçao da pagina*/
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border-bottom: 1px solid #666;
+  }
+  
+  /*navegaçao da pagina*/
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  /*navegaçao da pagina*/
+  ul li {
+    margin-right: 30px;
+  }
+  
+  ul li > a:hover {
+    color: #9e7406;
+  }
+  
+  /*cor da navegaçao da pagina*/
+  ul li a {
+    color: #000000;
+    font-size: 30px;
+  }
+  #campo {
+    display: flex;
+    justify-content: center;
+    padding: 350px;
+  }
+  
+  .input {
+    display: flex;
+    width: 50%;
+    justify-items: center;
+    position: absolute;
+    left: 53vh;
+  }
+  
+  .input input {
+    width: 200%;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: solid 3px #9e7406;
+    height: 40px;
+    background-color: #ffbb00;
+    opacity: 62%;
+  }
+  
+  .input input::placeholder {
+    color: rgb(0, 0, 0);
+    font: 20px arial;
+    text-transform:uppercase;
+  }
+  
+
+  
+  h1 {
+    display: flex;
+    position: absolute;
+    left: 35%;
+    bottom: 54%;
+    font-size: 90px;
+    color: #b89742;
+    opacity: 62%;
+  }
+  
+  h2 {
+    display: flex;
+    position: absolute;
+    left: 49%;
+    bottom: 38%;
+    font-size: 90px;
+    color: #b89742;
+    opacity: 62%;
+  }
+  
+
+    
+  .buton{
+    position: relative;
+    border: none;
+    background-color: #e7a806;
+    color: rgb(110, 105, 105);
+    text-transform:uppercase;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    width: 10%;
+    height: 40px;
+    bottom: 25vh;
+    left: 90vh;
+    font-size: large;
+  }
+  
+  
+  .buton:hover{
+    background-color: black;
+  }
